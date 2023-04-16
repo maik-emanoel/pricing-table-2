@@ -12,6 +12,7 @@
     --body-bg-color: #e3eaf2;
     --card-bg-color: #FFFFFF;
     --btn-bg-color: transparent;
+    --box-shadow-color: #ddd1f8;
     --card-border-color: #E2E8F0;
     --font-primary-color: #1E293B;
     --font-secondary-color: #475569;
@@ -91,6 +92,8 @@ main {
     position: relative;
     transition: all .3s ease-in-out;
     background: var(--card-bg-color);
+
+    box-shadow: 0rem 0.4rem 1.6rem var(--box-shadow-color);
 }
 
 .card:hover:not(.ultimate) {
