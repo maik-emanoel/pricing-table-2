@@ -83,6 +83,10 @@ main {
     padding-inline: 2rem;
 }
 
+main:has(.card:hover) .card:not(:hover) {
+    filter: blur(.2rem);
+}
+
 .card {
     flex: 1;
     border-radius: 1rem;
